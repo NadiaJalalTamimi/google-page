@@ -1,0 +1,131 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+#first{
+    height: 18vh;
+    width: 100%;
+    
+}
+#navbar{
+   list-style: none;
+   margin-left: 1100px; 
+   font-size: small;
+   
+   
+}
+li{
+    float: left;
+    padding: 8px;
+   
+}
+.nav{
+    height:24px;
+    width: 24px;
+}
+.google{
+    height: 85px;
+    width: 250px;
+    margin-left: 560px;
+    margin-top: 0px;
+}
+input{
+    height: 35px ;
+    width: 520px;
+    margin-left: 420px;
+    padding-left: 15px;
+    font-size: 20px;
+    border: 1px solid #e5e5e5;
+    border-radius: 30px;
+
+}
+input:hover{
+   
+    
+    box-shadow:0px 1px 4px 2px rgb(202, 200, 200);
+    transition: cubic-bezier(0.6, -0.28, 0.735, 0.045);
+}
+button{
+    height: 35px;
+    width: 120px;
+    background-color: #f6f6f6;
+    font-size: 13px;
+    color: rgb(94, 97, 97);
+    border: none;
+    margin-right: 10px;
+    border-radius: 3px;
+}
+button:hover{
+   
+    color: rgb(43, 43, 42);
+    border: rgb(116, 114, 114);
+    box-shadow:0px 0px 3px rgb(62, 63, 62);
+    transition: cubic-bezier(0.6, -0.28, 0.735, 0.045);
+}
+
+#but{
+    margin-left: 550px;
+    padding-top: 30px;
+    
+}
+#language{
+    margin-top: 25px;
+    font-size: 12px;
+}
+#country{
+    height: 35px;
+    width:100% ;
+    background-color: rgb(239, 241, 241);
+    margin-top: 140px;
+    border: 1px solid #c5c3c3 ;
+    
+
+}
+
+.other{
+    list-style: none;
+    color:  rgb(156, 156, 156);
+   margin-left: 10px;
+   margin-right: 10px;
+   padding: 0px;
+   margin-top: 0px;
+   transform: rotateX(-50%) translateY(-50%);
+   width: 100%;
+   font-size: small;
+
+   
+}
+a:hover{
+    color: rgb(51, 50, 50);
+}
+.list{
+    color: rgb(156, 156, 156);
+    text-decoration: none;
+
+}
+
+.list::before{
+  color: rgb(156, 156, 156);
+  text-decoration: none;
+  font-weight: lighter;
+
+}
+.list::after{
+    content:'';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: rgb(47, 48, 48);
+    transition: cubic-bezier(0.6, -0.28, 0.735, 0.045);
+   
+
+}
+.list:hover::after{
+    
+    width:100% ;
+    transition: cubic-bezier(0.6, -0.28, 0.735, 0.045);
+    transition: width .3s;
+    
+}
